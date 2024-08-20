@@ -14,8 +14,8 @@ A simple command-line Pomodoro timer built in Go. This tool allows you to choose
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/pomodoro-timer-cli.git
-    cd pomodoro-timer-cli
+    git clone https://github.com/liquidevelop/pomodoro.git
+    cd pomodoro
     ```
 
 2. **Install dependencies**:
@@ -60,3 +60,17 @@ To run the tests for the timer and utility functions:
 
 ```bash
 go test
+```
+
+## Github Actions
+THis project includes a GitHub Actions workflow for continuous integration:
+- <b>Testing:</b> Automatically runs unit tests on each push and pull request to `main` to ensue code reliability
+- <b>Building:</b> Verifies that the project build successfully, ensuring that the code is ready for deployment.
+
+## License
+This project is licensed under the MIT License. See the <b>License</b> tab for details
+
+## Acknowledgement
+<!-- Create a MD link with https://github.com/gen2brain/beeep and text beeep -->
+
+- [beeep](https://github.com/gen2brain/beeep) - Used for desktop notifications
